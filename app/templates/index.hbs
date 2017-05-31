@@ -1,0 +1,8 @@
+<h1>This is our index page!</h1>
+
+
+<ul>
+  {{#each model as |post|}}
+    {{post-tile post=post destroyPost="destroyPost"}}
+  {{/each}}
+</ul>

@@ -1,0 +1,20 @@
+{ "posts": [{
+    "author": "James Higgins",
+    "image": "http://roamersrestrvpark.com/wp-content/uploads/2015/03/roamers_rest_map.jpg",
+    "location": "Campsite 1",
+    "content": "This is my favorite campsite",
+    "category": "Category 1"
+  }, {
+    "author": "James Higgins",
+    "image": "http://roamersrestrvpark.com/wp-content/uploads/2015/03/roamers_rest_map.jpg",
+    "location": "Campsite 1",
+    "content": "This is my favorite campsite",
+    "category": "Category 1"
+  }, {
+    "author": "James Higgins",
+    "image": "http://roamersrestrvpark.com/wp-content/uploads/2015/03/roamers_rest_map.jpg",
+    "location": "Campsite 1",
+    "content": "This is my favorite campsite",
+    "category": "Category 1"
+  }]
+}
