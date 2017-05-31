@@ -5,13 +5,29 @@ img {
 .menu {
   background-color: #c98520;
   font-family: fantasy;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color: red;
+}
+
+.ember-application {
+  top: 0px;
 }
 
 .menu a {
   color: black;
+  height: 160px;
 }
 
 .links {
  display: inline;
 }
-dfsdfds
+.github {
+  width: 75px;
+}
+body {
+  text-align: center;
+}
+h1{
+  font-size: 80px;
+}

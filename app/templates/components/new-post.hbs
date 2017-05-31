@@ -27,9 +27,9 @@
         {{input value=category id="category"}}
       </div>
 
-      <button {{action 'savePost1'}}>Save</button>
+      <button class="btn btn-primary" {{action 'savePost1'}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'postFormShow'}}>New Post</button>
+  <button class="btn btn-success" {{action 'postFormShow'}}>New Post</button>
 {{/if}}

@@ -1,20 +1,71 @@
-<div class="container">
-  <div class="menu">
+
+  <header class="menu">
     {{#link-to 'index'}}
       <h1>
-        <em>Camp Blog</em>
+        <em>Ember Blows</em>
       </h1>
     {{/link-to}}
     <div class="links">
-      {{#link-to 'about'}}
-        About
-      {{/link-to}}
-      {{#link-to 'contact'}}
-        Contact
-      {{/link-to}}
+
+
+
     </div>
+
+  </header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Ember Blows</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li>{{#link-to 'index'}}
+          Home
+        {{/link-to}}</li>
+        <li>{{#link-to 'about'}}
+          About
+        {{/link-to}}</li>
+        <li>{{#link-to 'contact'}}
+          Contact
+        {{/link-to}}</li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="row">
+  <div class="col-sm-8">
+    <article class="body">
+      {{outlet}}
+    </article>
+
   </div>
-  <div class="body">
-    {{outlet}}
+  <div class="col-sm-4">
+    <article class="body">
+      <h3>TEST SIDE BAR</h3>
+      <ul>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+      </ul>
+    </article>
   </div>
 </div>
+
+  <!-- <div id="sidebar">This is a navigation menu</div>
+  <nav>
+      <section id="widget_1">This</section>
+      <section id="widget_2">Is</section>
+      <section id="widget_3">A Sidebar Test</section>
+  </nav> -->
+
+
+
+  <footer class="navbar-default">
+      <div class="containerp-fluid">
+        <h3>Check us out on Github</h3>
+        <a href="https://github.com/jamesmilanhiggins" target="blank"><img class="github" src="https://www.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png"/>James'</a>
+        <a href="https://github.com/kenr16" target="blank"><img class="github" src="https://www.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png"/>Ken's</a>
+      </div>
+    </footer>
