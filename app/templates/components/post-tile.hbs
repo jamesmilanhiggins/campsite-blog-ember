@@ -2,5 +2,6 @@
   <p><img src={{post.image}} alt={{post.location}}></p>
   <p>{{post.content}}</p>
   <p>Posted by {{post.author}} at {{post.location}}</p>
+  {{update-post post=post update="update"}}
   <button {{action 'delete' post}}> Delete This Post</button>
 </li>
