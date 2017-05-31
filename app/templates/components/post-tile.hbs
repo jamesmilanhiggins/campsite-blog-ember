@@ -1,7 +1,7 @@
 <li>
   <p><img src={{post.image}} alt={{post.location}}></p>
   <p>{{post.content}}</p>
-  <p>Posted by {{post.author}} at {{post.location}}</p>
+  <p>{{#link-to 'post' post.id}}Posted by {{post.author}} at {{post.location}}{{/link-to}}</p>
   {{update-post post=post update="update"}}
   <button {{action 'delete' post}}> Delete This Post</button>
 </li>
