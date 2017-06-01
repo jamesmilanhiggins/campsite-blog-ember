@@ -1,8 +1,15 @@
 <h2>More information about {{model.author}} at {{model.location}}</h2>
-<img src={{model.image}}>
-{{model.content}}
+<div class="blogpost">
+  <div class="row">
+    <img src={{model.image}}>
+    <br><br>
+  </div>
+  <div class="row">
+    {{model.content}}
 
 
-{{post-detail post=model destroyPost="destroyPost" destroyComment="destroyComment"}}
+    {{post-detail post=model destroyPost="destroyPost" destroyComment="destroyComment"}}
 
-{{new-comment saveComment2="saveComment3" post=model}}
+    {{new-comment saveComment2="saveComment3" post=model}}
+  </div>
+</div>

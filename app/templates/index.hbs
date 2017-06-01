@@ -1,4 +1,7 @@
-<h1>This is our index page!</h1>
+<div class="about">
+  <h1>Ken and James' Camping Blog</h1>
+  <p>Camping Rocks||Ember Blows was started in 2017 as a resource for people who are seeking to share or gain information, knowledge, advice or anything else about locations, equipment, techniques or other camping related things.</p>
+</div>
 
 
 <ul>
@@ -13,6 +16,6 @@
 
 <ul>
   {{#each model.comments as |comment|}}
-    <li>{{comment.rating}} - {{comment.content}} - by {{comment.author}}</li>
+    <li class="comment">Rating: {{comment.rating}} - "{{comment.content}}" - by {{comment.author}}</li>
   {{/each}}
 </ul>
