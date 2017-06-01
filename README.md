@@ -49,5 +49,5 @@ Please comment on GitHub with any questions or concerns.
 Copyright (c) 2017 **_Ken Rutan and James Higgins_**
 
 
-![Header page](/images/header.png)
+![Header page](/public/images/header.png)
 ![Footer page](/public/images/footer.png)
