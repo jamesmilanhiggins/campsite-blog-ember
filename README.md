@@ -1,7 +1,10 @@
-# camp-blog
+# Camping Blog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+###_This is a blog for campers, about their favorite campsites_
+
+
+#### By _**Ken Rutan, and James Higgins**_
+
 
 ## Prerequisites
 
@@ -11,7 +14,9 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+
+## Known Bugs
+There are no known bugs at this time
 
 ## Installation
 
@@ -20,33 +25,29 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
+
 ## Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Technologies Used
+* JavaScript
+* Ember
+* HTML
+* CSS
+* Bootstrap
+* Node
+* Bower
 
-Make use of the many generators for code, try `ember help generate` for more details
+## Support/Contact
+Please comment on GitHub with any questions or concerns.
 
-### Running Tests
+### License
+*This software is licensed under MIT license.*
 
-* `ember test`
-* `ember test --server`
+Copyright (c) 2017 **_Ken Rutan and James Higgins_**
 
-### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+![Header page](/images/header.png)
+![Footer page](/images/footer.png)
