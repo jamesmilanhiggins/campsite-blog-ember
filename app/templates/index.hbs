@@ -2,9 +2,19 @@
 
 
 <ul>
-  {{#each model as |post|}}
+  {{#each model.posts as |post|}}
     {{post-tile post=post update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
 
 {{new-post savePost2="savePost3"}}
+
+<h2> All Comments </h2>
+
+<ul>
+  {{#each model.comments as |comment|}}
+    <li>{{comment.rating}} - {{comment.content}} - by {{comment.author}}</li>
+  {{/each}}
+</ul>
+
+{{new-comment saveComment2="saveComment3"}}
