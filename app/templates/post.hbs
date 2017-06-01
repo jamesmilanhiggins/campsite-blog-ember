@@ -1,3 +1,8 @@
 <h2>More information about {{model.author}} at {{model.location}}</h2>
 <img src={{model.image}}>
 {{model.content}}
+
+
+{{post-detail post=model destroyPost="destroyPost"}}
+
+{{new-comment saveComment2="saveComment3" post=model}}

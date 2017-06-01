@@ -1,0 +1,13 @@
+
+<br>
+<!-- <p><img src={{post.image}}></p> -->
+
+
+<h2> Comments </h2>
+<ul>
+  {{#each post.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</ul>
+
+<button {{action 'delete' post}}>Delete</button>
