@@ -1,6 +1,6 @@
 # Camping Blog
 
-###_This is a blog for campers, about their favorite campsites
+### _This is a blog for campers, about their favorite campsites
 
 
 #### By _**Ken Rutan, and James Higgins**_
